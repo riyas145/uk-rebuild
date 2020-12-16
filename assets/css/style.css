@@ -1,0 +1,185 @@
+/* NAVBAR DESIGN START */
+nav.navbar .row {width: 100%;}
+nav.navbar {position: absolute;width: 100%;z-index: 1600;}
+ul.header__link li {display: inline-block;}
+.navbar .way2smile-logo{filter: brightness(10);}
+.phone-hoverblack,.mailblack{filter: invert(1);}
+.way2smile-logo,.idea, .server, 
+.cup, .phone-hoverblack, .mailblack, .phone
+{ display: inline-block; background: url('../img/header_footer_images.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.way2smile-logo { background-position: -0px -0px; width: 180px; height: 81px; }
+.idea { background-position: -91px -146px; width: 80px; height: 84px; }
+.server { background-position: -0px -156px; width: 71px; height: 73px; }
+.cup { background-position: -0px -229px; width: 66px; height: 76px; }
+.phone-hoverblack { background-position: -122px -230px; width: 41px; height: 41px; }
+.mailblack { background-position: -122px -271px; width: 41px; height: 41px; }
+.phone { background-position: -66px -287px; width: 25px; height: 25px; }
+/* NAVBAR DESIGN END  */
+
+/* BANNER SECTION START */
+.main__banner {
+    background: url(https://www.w2ssolutions.com/wp-content/uploads/2020/11/homebanner.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: 'Kumbh Sans', sans-serif !important;
+}
+
+div#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+}
+.banner__text {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+div#banner__content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Kumbh Sans', sans-serif;
+    z-index: 1500;
+}
+.banner__text h1 {
+    font-family: 'Kumbh Sans', sans-serif !important;
+    font-weight: 700;
+    font-size: 50px !important;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center !important;
+}
+.banner__text p {
+    color: #ffffff;
+    font-family: 'Kumbh Sans', sans-serif !important;
+    font-size: 24px;
+    width: 100%;
+    max-width: 66%;
+    margin: 25px auto;
+    text-align: center !important;
+}
+a.quote_btn_banner {
+    width: 100%;
+    max-width: 250px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Kumbh Sans', sans-serif;
+    border: 2px solid #ffffff;
+    padding: 15px 30px;
+    border-radius: 25px;
+    display: block;
+    margin: 40px auto auto;
+    font-weight: 700;
+    line-height: 20px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+a.quote_btn_banner:hover {
+    background: #ffffff;
+    color: #000000;
+}
+/* BANNER SECTION END  */
+
+/* OUR PROCESS SECTION START */
+.it, .cloudservice, .data, .web, .automation, 
+.mobile-app
+{ display: inline-block; background: url('../img/box_icon.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.it { background-position: -0px -0px; width: 63px; height: 40px; }
+.cloudservice { background-position: -0px -40px; width: 49px; height: 49px; }
+.data { background-position: -0px -89px; width: 43px; height: 43px; }
+.web { background-position: -0px -132px; width: 42px; height: 38px; }
+.automation { background-position: -0px -170px; width: 39px; height: 43px; }
+.mobile-app { background-position: -39px -170px; width: 23px; height: 43px; }
+.icon_box_container .box__icon {filter: invert(1);}
+div#our_services {margin: 100px;font-family: 'Kumbh Sans', sans-serif;}
+.section__heading h3 {
+    font-weight: 600;
+    font-size: 40px;
+}
+.icon_box_container h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.icon_box_container {
+    border: 1px solid #ccc;
+    padding: 25px 12px;
+    margin-bottom: 50px;
+    height: 240px;
+}
+.icon_box_container:hover {
+    background: #116eef;
+    box-shadow: 3px 0 44px -5px rgba(0, 0, 0, .36);
+    text-decoration: none;
+    color: #ffffff;
+    transition: .8s;
+}
+.icon_box_container:hover .box__icon {filter: invert(0);}
+.section__heading p {
+    font-size: 24px;
+    padding: 0 8%;
+    margin-bottom: 40px;
+}
+
+/* OUR PROCESS SECTION END  */
+
+/* FOOTER DESIGN START */
+.cluth-footer, .good-firms-footer, .google-footer
+{ display: inline-block; background: url('../img/footer-icons.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.cluth-footer { background-position: -0px -0px; width: 64px; height: 50px; }
+.good-firms-footer { background-position: -0px -50px; width: 64px; height: 50px; }
+.google-footer { background-position: -0px -100px; width: 43px; height: 44px; }
+footer#footer {
+    background-color: #0f0f0f!important;
+    padding: 50px 50px 40px 50px!important;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer__rating__container ul li span {color: #8d8d8d;font-size: 15px;}
+.footer__rating__container ul {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer__rating__container ul li{list-style: none;}
+.footer__rating__container ul li p {
+    margin: 10px 0 5px;
+    font-size: 17px;
+}
+.footer_des{
+    margin-top: 20px;
+    opacity: .7;
+    font-size: 14px;
+}
+/* FOOTER DESIGN END */
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px){
+.container {max-width: 1300px;}
+}
